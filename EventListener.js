@@ -23,6 +23,7 @@ function eventHandler (event) {
 
 }
 
+
 form.addEventListener('click', eventHandler);
 
 
