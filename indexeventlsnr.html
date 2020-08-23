@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        
+
+        #pp2{
+            border-top: 5px;
+            border-left: 3px;
+            padding: 8px;
+            
+        }
+        .ppp {
+            font-style: italic;
+            font-size: 18px;
+            
+        }
+
+        #empty {
+            color: darkorange;
+            font-size: 15px;
+            text-align: left;
+            border: 1px solid red;
+            border-radius: 18%; 
+            padding: 8px;
+        }
+
+        .close:hover {
+            color: tomato;
+
+        }
+
+        .close:active {
+            background-color: saddlebrown;
+        }
+
+        #img {
+            size: 50px;
+            width: 75%;
+            height: 200px;
+            float: right;
+            
+            
+        }
+
+        #Titles {
+            float: right;
+            width: 40%;
+            font-family: sans-serif;
+            font-size: 20px;
+        }
+
+        #form {
+            width: 50%;
+            position: absolute;
+            margin-top:20px;
+        }
+        #color{
+            color:dodgerblue;
+        }
+        .sortdiv{
+            length:30px;
+            margin-top:0px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 ><img  id="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ESL_Light_Horizontal_Logo.svg/1920px-ESL_Light_Horizontal_Logo.svg.png"  alt="">
+    </h1>
+    <div  id="pp2">
+        <p class="ppp">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe itaque culpa id sit repellat. Similique, aut, modi. Magni voluptate quos, iure in, ad numquam consequatur, minima voluptatem aspernatur placeat quisquam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe itaque culpa id sit repellat. Similique, aut, modi. Magni voluptate quos, iure in, ad numquam consequatur, minima voluptatem aspernatur placeat quisquam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe itaque culpa id sit repellat. Similique, aut, modi. Magni voluptate quos, iure in, ad numquam consequatur, minima voluptatem aspernatur placeat quisquam.<br>
+
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe itaque culpa id sit repellat. Similique, aut, modi. Magni voluptate quos, iure in, ad numquam consequatur, minima voluptatem aspernatur placeat quisquam.
+            <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe itaque culpa id sit repellat.</strong> Similique, aut, modi. Magni voluptate quos, iure in, ad numquam consequatur, minima voluptatem aspernatur placeat quisquam.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe itaque culpa id sit repellat. <em>Similique, aut, modi. Magni voluptate quos, iure in, ad numquam consequatur, minima voluptatem aspernatur placeat quisquam</em>.<br>
+
+
+        </p>
+
+        <a id="color" target="_blank" href="https://www.esl-lab.com/"> ESL Course</a>
+
+    </div>
+    <div style="clear:both;"></div>
+
+    <form id="form">
+        <div id="name-box">
+            <span class="alert" style="color: gray;"></span><br/>
+            <input id="nameali" type="text" placeholder="Name and Surname.." required> <br>
+        </div>
+        <br/><br/>
+        <div id="password-box" >
+        <span class="alert" style="color: gray;"></span><br/>
+        <input id="passwordali" type="password" placeholder="Password..">
+    </div>
+
+        <br><br>
+        <div id="email-box" >
+        <span class="alert" style="color: gray;"></span><br/>
+        <input id="emailali" type="email" placeholder="Mail.." required>
+        </div>
+
+        <br><br>
+
+        <input type="radio" name="Statu">Married
+        <input type="radio" name="Statu">Single
+        <input type="radio" name="Statu">Divorced
+
+        <br><br>
+
+        <input type="radio" name="Gender"> Male
+        <input type="radio" name="Gender"> Female
+
+        <br><br>
+
+        <input type="checkbox" name="hobi">Read book
+        <input type="checkbox" name="hobi">Swimming
+        <input type="checkbox" name="hobi">Travilling
+
+        <br><br>
+
+
+        <select>
+            <option>English</option>
+            <option>French</option>
+            <option selected>Spain</option>
+            <option>Italian</option>
+        </select>
+
+
+        <br><br>
+
+        <select  multiple>
+
+            <option>French</option>
+            <option>Russian</option>
+            <option>Arabic</option>
+            <option>Japanese</option>
+            <option>Turkish</option>
+            <option>Polish</option>
+            <option>Chinise</option>
+            <option>Italian</option>
+        </select>
+
+
+        <br><br>
+
+        <textarea id="empty" cols="50" rows="10"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo debitis quos repellat facilis, molestiae voluptatibus! Cupiditate autem, nostrum assumenda? In, illum iure sunt, impedit laboriosam consectetur aperiam voluptatum eveniet eum? </textarea>
+        <p id="demo"></p>
+
+        <br><br>
+
+        <input id="cleanupahmet" class="close" type="reset" value="Cleanup">
+        <div id="result" style="color: orange;"></div>
+        <br><br>
+
+        <input id="Submitahmet" class="close" type="submit" value="Submit">
+
+
+
+
+
+    </form>
+    <div onclick="this.innerHTML = 'Do NOT Touch Me'"  id="Titles">
+        <h2>Issues </h2>
+        <ul>
+            <li>A Student Credit Card</li>
+            <li>A Healthy Lifestyle</li>
+            <li>A Hiking Family</li>
+            <li>Alien Encounters</li>
+            <li>Airline Safety</li>
+            <li>Baby Food</li>
+            <li>Baby Toys</li>
+
+        </ul>
+        <table class="table">
+		<thead>
+			<tr>
+				<th>Teachers</th>
+				<th>Name</th>
+				<th>Surname</th>
+				<th>Email</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>James </td>
+				<td>Hernandez</td>
+				<td>abc@gmail.com</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Michael </td>
+				<td>Rodriguez</td>
+				<td>cba@gmail.com</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Robert </td>
+				<td>Smith</td>
+				<td>acb@gmail.com</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Maria </td>
+				<td>Garcia</td>
+				<td>cab@gmail.com</td>
+			</tr>
+		</tbody>
+
+	</table>
+
+
+    </div>
+
+
+    <script src="KKKKKKKK.js"></script>
+
+
+</body>
+
+</html>
